@@ -1,0 +1,104 @@
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+.box {
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+  margin-top: 50px;
+  height: 650px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 1px 5px 5px 8px rgb(20, 20, 20);
+}
+
+.intro {
+  text-align: left;
+  padding-left: 20px
+}
+
+.value {
+  display: inline-block;
+  color: hsl(178, 100%, 50%);
+  position: relative;
+  bottom: 10px;
+}
+
+.time {
+display: inline-block;
+text-align: right;
+position: relative;
+bottom: 10px;
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+.highlight {
+  color: hsl(0, 0%, 100%);
+}
+
+.highlight:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  width: 15%;
+  float: left;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.thank-you {
+  visibility: hidden;
+  display: inline-block;
+}
+
+:root {
+  --Font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+font-family: var(--Font-family);
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+  padding-left: 20px
+}
+
+h3:hover {
+  color: hsl(178, 100%, 50%)
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+  border-style: solid;
+  width: 90%;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+
+img {
+width: 90%;
+margin-top: 15px;
+border-radius: 8px;
+}
+svg {
+  position: relative;
+  bottom: 7px;
+}
